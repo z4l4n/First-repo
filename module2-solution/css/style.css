@@ -18,19 +18,19 @@ h2 {float: right; right: 11px; top: 51px; position: absolute; text-align: center
 	.ld12, .ld6, .ld4 {float: left;}
 	.ld12 {width: 100%;}
 	.ld6 {width: 50%;}
-	.ld4 {width: 33%;}
+	.ld4 {width: 33.33%;}
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
 	.md12, .md6, .md4 {float: left;}
 	.md12 {width: 100%;}
 	.md6 {width: 50%;}
-	.md4 {width: 33%;}
+	.md4 {width: 33.33%;}
 }
 
 @media (max-width: 767px) {
 	.sd12, .sd6, .sd4 {float: left;}
 	.sd12 {width: 100%;}
 	.sd6 {width: 50%;}
-	.sd4 {width: 33%;}
+	.sd4 {width: 33.33%;}
 }
