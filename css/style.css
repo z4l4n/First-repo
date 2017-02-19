@@ -1,0 +1,30 @@
+
+@media (min-width: 992px) {
+	.ld12, .ld6, .ld4 {float: left;}
+	.ld12 {width: 100%;}
+	.ld6 {width: 50%;}
+	.ld4 {width: 33.33%;}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	.md12, .md6, .md4 {float: left;}
+	.md12 {width: 100%;}
+	.md6 {width: 50%;}
+	.md4 {width: 33.33%;}
+}
+
+@media (max-width: 767px) {
+	.sd12, .sd6, .sd4 {float: left;}
+	.sd12 {width: 100%;}
+	.sd6 {width: 50%;}
+	.sd4 {width: 33.33%;}
+}
+body {font-family: Candara; font-weight: bold;}
+#container {margin:-5px;}
+header {text-align: center; font-size: 175%; margin-bottom: 30px; font-weight: bold;}
+section {float: left;  box-sizing: border-box;}
+.section_content {margin: 15px; background-color: gray; position: relative; padding-top: 40px; border: 1px solid black;}
+#title1 {position: absolute; top: 0; right: 0; text-align: center; width: 200px; background-color: red; color: white; border: 1px solid black; padding: 10px 0px; margin: 0px; font-size: 125%;}
+#title2 {position: absolute; top: 0; right: 0; text-align: center; width: 200px; background-color: pink; color: black; border: 1px solid black; padding: 10px 0px; margin: 0px; font-size: 125%;}
+#title3 {position: absolute; top: 0; right: 0; text-align: center; width: 200px; background-color: yellow; color: green; border: 1px solid black; padding: 10px 0px; margin: 0px; font-size: 125%;}
+.text { padding: 0px 15px; }
