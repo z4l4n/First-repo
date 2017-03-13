@@ -1,0 +1,5 @@
+.navbar-brand h1 {margin: 0; }
+.nav.navbar-nav a {background-color: maroon;}
+#chicken-section, #sushi-section, #beef-section {padding: 15px; }
+#chicken-content, #sushi-content, #beef-content {background-color: gray; padding: 5px;}
+#menu-heading {margin-bottom: 40px;}
